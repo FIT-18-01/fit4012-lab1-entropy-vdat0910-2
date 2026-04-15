@@ -24,23 +24,8 @@ double calculate_entropy(const string &text) {
 }
 
 double calculate_redundancy(const string &text, int alphabet_size = 256) {
-    if (text.empty()) {
-    return 0.0;
-    }
-
-    map<char, int> freq;
-    for (char c : text) {
-        freq[c]++;
-    }
-
-    int N = freq.size();
-    double H = calculate_entropy(text);
-
-    if (N <= 1) {
-        return 0.0;
-    }
-
-    return log2(N) - H;
+    double entropy = calculate_entropy(text);
+    return log2(alphabet_size) - entropy;
 }
 
 int main() {
