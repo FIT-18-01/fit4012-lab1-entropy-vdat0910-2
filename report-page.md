@@ -28,4 +28,4 @@
 | 6 | 9 | Không tồn tại | Không tồn tại |
 
 ## 4. Kết luận
-Bài lab giúp tôi nắm được cách tính entropy của chuỗi và hiểu độ dư thừa thông tin dựa trên entropy thực tế. Việc cài đặt nghịch đảo modulo bằng thuật toán Euclid mở rộng giúp tôi thấy rõ ứng dụng toán học trong mật mã và giải thuật. Khó khăn nhất là xác định cách biểu diễn entropy trong code, nhưng sau khi chạy thử với nhiều test case, tôi đã củng cố được ý nghĩa của entropy và redundancy.
+Qua bài lab, tôi hiểu rõ hơn cách tính entropy của một chuỗi ký tự và cách xác định độ dư thừa thông tin dựa trên giá trị entropy. Bên cạnh đó, việc cài đặt thuật toán Euclid mở rộng để tìm nghịch đảo modulo giúp tôi thấy được sự liên hệ giữa lý thuyết toán học và ứng dụng trong lập trình. Khó khăn ban đầu là cách áp dụng công thức vào chương trình, nhưng nhờ thử nghiệm với nhiều dữ liệu khác nhau, tôi đã nắm vững hơn về ý nghĩa của entropy và redundancy.
